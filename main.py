@@ -7,7 +7,7 @@ import datetime
 gun_cascade = cv2.CascadeClassifier("cascadee.xml")
 
 # Open the video file for capturing frames
-camera = cv2.VideoCapture("shooting2.mp4")
+camera = cv2.VideoCapture(0)
 
 # Initialize a variable to track whether a gun is detected
 gun_exist = False
@@ -22,7 +22,7 @@ while True:
         break
 
     # Resize the frame to a smaller width to speed up processing
-    frame = imutils.resize(frame, width=500)
+    frame = imutils.resize(frame, width=600)
 
     # Convert the frame to grayscale for Haar cascade detection
     gray = cv2.cvtColor(frame, cv2.COLOR_BGR2GRAY)
