@@ -1,0 +1,74 @@
+body{
+    background-color: #121416;
+    justify-content: center;
+    align-content: center;
+    position: relative;
+  
+  
+    width: 100%;
+   
+     
+}
+
+.shooter{
+
+color: rgb(230, 26, 26);   
+padding-top: 90px;
+    width: 100%;
+  
+    min-width: 600px; 
+    
+   font-size: 40px;
+   font-weight: bold;
+    display:flex;
+    
+    
+    position: relative;
+    
+    margin:auto;
+   
+    justify-content: center;
+    margin:auto;
+}
+.middlep1{
+    background-color: #7e7d7d ;
+    padding-top: 180px;
+    width: 80%;
+    height: 400px;
+   
+    min-width: 600px; 
+    min-height: auto;
+    padding-top: auto;
+    display:flex;
+    
+    
+    position: relative;
+    
+    margin:auto;
+    top: 35%;
+    justify-content: center;
+  margin:auto;
+
+}
+.middlep2{
+    background-color: #bd1313 ;
+    top: 30px;
+    padding-top: 10px;
+    width: 80%;
+    height: 20px;
+   
+    min-width: 600px; 
+    min-height: auto;
+    padding-top: auto;
+    display:flex;
+    
+    
+    position: relative;
+    
+    margin:auto;
+    top: 35%;
+    justify-content: center;
+  margin:auto;
+
+}
+
