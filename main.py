@@ -9,9 +9,9 @@ import datetime
 from matplotlib import pyplot as plt
 
 
-gun_cascade = cv2.CascadeClassifier("cascade.xml")
+gun_cascade = cv2.CascadeClassifier("cascadee.xml")
 
-camera = cv2.VideoCapture(0)
+camera = cv2.VideoCapture('shooting2.mp4')
 
 firstFrame = None
 
