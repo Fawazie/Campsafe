@@ -1,5 +1,5 @@
 # CampSafe
-
+## Authors- Rakshith Puligundla, Fawaz Abdulwahab, Oluwatobiloba Lawuyi
 ## Table of Contents
 
 - [Project Fundamentals](#fundamentals)
