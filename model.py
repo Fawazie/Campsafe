@@ -19,7 +19,7 @@ IMAGE_URL = "https://samples.clarifai.com/metro-north.jpg"
 # IMAGE_FILE_LOCATION = 'YOUR_IMAGE_FILE_LOCATION_HERE'
 
 ############################################################################
-# YOU DO NOT NEED TO CHANGE ANYTHING BELOW THIS LINE TO RUN THIS EXAMPLE
+# YOU DO NOT NEED TO CHANGE ANYTHING AFTER THIS LINE TO RUN THIS EXAMPLE
 ############################################################################
 
 from clarifai_grpc.channel.clarifai_channel import ClarifaiChannel
